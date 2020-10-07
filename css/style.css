@@ -1,0 +1,121 @@
+/* ####################################################CONFIGURACIONES GENERALES #########################################*/
+body{
+    overflow-x: hidden; 
+    background-color: rgba(3, 1, 31, .8);
+}
+
+.linea{
+    border-bottom: 1px groove rgba(168, 166, 166, 0.808);
+}
+
+/*######################################################NAVBAR############################################################*/
+.btn-navbar{
+    width: auto;
+    height: auto;
+    width: 8rem;
+}
+.btn-navbar:hover{
+    background-color:rgba(136, 138, 133, .8);
+    color: rgba(0, 0, 0, 1);
+}
+
+.btn-navbar-active{
+    background-color: rgba(174, 27, 204, .5); 
+    width:8rem;
+}
+
+/*######################################################### VISTAS GENERALES ##############################################*/
+.table-view
+{
+    border:1px groove rgba(138, 134, 134, 1);
+}
+.col-barra-busqueda{
+    background-color: rgba(211, 215, 207, .1);
+    padding: 1rem;
+}
+
+.btn-agregar-registro{
+    color: rgba(200, 200, 200, 1);
+}
+.btn-agregar-registro:hover{
+    background-color: rgba(186, 189, 182, .15); 
+}
+
+.btn-buscar{    
+    color: rgba(200, 200, 200, 1);
+}
+
+.btn-buscar:hover{  
+    background-color: rgba(186, 189, 182, .15); 
+}
+
+/*#################################################FORMULARIO GENERALES#########################################*/
+.body-form{
+    color: white;
+    background-color: rgb(12, 12, 12);
+    padding: 2rem;
+}
+
+.row-form{
+    height: 100vh;
+}
+
+.form-crud{
+    border: 1px groove rgba(174, 27, 204, .5);
+    background-color: rgba(255, 255, 255, .1);
+    max-height: auto;
+    border-radius: 15px;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.btn-enviar{
+    width: 80%;
+    background-color: rgba(27, 63, 182, 0.8);
+    border: none;
+    height: 3rem;
+}
+
+.btn-enviar:hover{
+    transform: translate3d(0px, -10px, 5px);
+    box-shadow: 5px 7px 25px black;
+    background-color: white;
+    color: rgba(27, 63, 182, 0.8);
+}
+
+.btn-cancelar-form{
+    width: 80%;
+    background-color: rgba(219, 48, 48, 0.8);
+    border: none;
+    height: 3rem;
+}
+
+.btn-cancelar-form:hover{
+    transform: translate3d(0px, -10px, 5px);
+    box-shadow: 5px 7px 25px black;
+    background-color: white;
+    color: rgba(219, 48, 48, 0.8);
+  }
+
+
+.linea{
+    border-bottom: 1px groove rgba(174, 27, 204, .5);
+}
+
+/*#######################################################HOME#######################################################*/
+.body-home{
+    background-color: rgba(0, 0, 0, 1);
+    padding: 3rem;
+}
+
+.container-home{
+    background-color:rgba(255, 255, 255, .8);
+    width: 80%;
+    height: 80%;
+}
